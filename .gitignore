@@ -1,0 +1,6 @@
+data/store.json
+data/*.tmp
+tests/tmp-store.json
+tests/tmp-browser-store.json
+tests/relay-*.png
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "name": "relay-code-chat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private, code-based group chat that runs in the browser.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

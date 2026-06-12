@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "b66e5ad2a589b59d1be3718a",
+      "username": "manan",
+      "displayName": "manan",
+      "color": "#3971D6",
+      "passwordSalt": "b6458c74db7aa65f9acf770b19e1c569",
+      "passwordHash": "cdd7d83abb2cc4eb85d70defd329ee05fac6dbb63b885cf8ccc2460daebb2e08c2cd687033a4462dbb824a2123c2b63ae274d4b354d1efa205dca233dec90cf6",
+      "createdAt": 1781257638584
+    }
+  ],
+  "rooms": [
+    {
+      "id": "41d67ade7a285965e71902ff",
+      "code": "LEX4F8",
+      "name": "man123",
+      "ownerId": "b66e5ad2a589b59d1be3718a",
+      "createdAt": 1781257655773,
+      "memberships": [
+        {
+          "userId": "b66e5ad2a589b59d1be3718a",
+          "joinedAt": 1781257655773,
+          "hiddenOwnBefore": null
+        }
+      ]
+    }
+  ],
+  "messages": []
+}

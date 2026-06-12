@@ -1,0 +1,13 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell (fnm)": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                "fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell (fnm)"
+}

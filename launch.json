@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Start Relay Server",
+            "program": "${workspaceFolder}/server.js",
+            "console": "integratedTerminal",
+            "runtimeExecutable": "node",
+            "restart": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open in Chrome",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/public"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Debug Full App",
+            "configurations": [
+                "Start Relay Server",
+                "Open in Chrome"
+            ]
+        }
+    ]
+}
