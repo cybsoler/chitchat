@@ -7,7 +7,7 @@
             "name": "Start Relay Server",
             "program": "${workspaceFolder}/server.js",
             "console": "integratedTerminal",
-            "runtimeExecutable": "node",
+            "runtimeExecutable": "C:\\Users\\pushp\\AppData\\Local\\fnm\\node-versions\\v24.16.0\\installation\\node.exe",
             "restart": true
         },
         {
